@@ -1,0 +1,6 @@
+@props(['eyebrow', 'title', 'intro' => null])
+<div class="section-heading">
+    <p class="eyebrow">{{ $eyebrow }}</p>
+    <h2>{{ $title }}</h2>
+    @if($intro)<p class="section-intro">{{ $intro }}</p>@endif
+</div>
